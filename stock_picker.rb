@@ -1,5 +1,3 @@
-sample = [17,3,6,9,15,8,6,1,10]
-
 def stock_picker(array)
     max_difference=0
     empty_array = []
@@ -22,5 +20,3 @@ def stock_picker(array)
     # empty_array.slice(0,2)
     empty_array
 end
-
-p stock_picker(sample)
